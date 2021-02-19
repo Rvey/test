@@ -1,0 +1,93 @@
+@media (max-width:560px) {
+
+  select,
+  #days_count {
+    width: 20em;
+  }
+
+  .submit {
+    width: 16.5em;
+  }
+
+  .contact-form {
+
+    input,
+    textarea {
+      width: 23em;
+    }
+  }
+
+  .result-sub {
+
+    width: 17em;
+  }
+}
+
+  @media (max-width: 380px) {
+
+    select,
+    #days_count {
+      width: 17em;
+    }
+
+    .submit {
+      width: 14em;
+    }
+    .contact-form {
+
+      input,
+      textarea {
+        width: 18em;
+      }
+    }
+
+    .result-sub {
+      width: 14em;
+    }
+  }
+
+  @media screen and (max-width:760px) {
+    .contact-side {
+      display: none;
+    }
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .nav-list {
+      display: none;
+    }
+
+    .showcase,
+    .showcase header {
+      padding: 40px;
+    }
+
+    .showcase {
+
+      .text h2 {
+        font-size: 3em;
+        line-height: 49px;
+      }
+
+      .text p {
+        font-size: 1em;
+      }
+    }
+
+
+
+    .contact-side {
+      display: none;
+    }
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
